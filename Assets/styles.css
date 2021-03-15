@@ -251,7 +251,7 @@ color:rgba(255, 251, 0, 1);
 
 .project-img:hover
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/comingsoon.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/comingsoon.jpg");
 }
 
 

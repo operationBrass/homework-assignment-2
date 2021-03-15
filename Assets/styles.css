@@ -320,7 +320,13 @@ input[type=text], select, textarea {
   @media only screen and (max-width: 600px) {
     .showcase-title h1
     {
-        font-size: 3em;
+        font-size: 25px;
+    }
+
+    .header-nav ul, .main-nav ul
+    {
+        flex-direction: column;
+        font-size: 10px;
     }
   }
   

@@ -5,4 +5,4 @@ The website is my personal portfolio. Functionality comparable to the prototype 
 
 [Brendan Lewis Portfolio](https://www.google.com "Google's Homepage")
 
-![Final_Product](/assets/images/finalscreen/portfolioScreen.JPG)
+![Final_Product](/Assets/images/finalscreen/portfolioScreen.JPG)

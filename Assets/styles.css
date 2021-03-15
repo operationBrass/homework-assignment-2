@@ -323,10 +323,26 @@ input[type=text], select, textarea {
         font-size: 25px;
     }
 
+    .showcase-enter a
+    {
+        font-size: 15px;
+    }
+
     .header-nav ul, .main-nav ul
     {
         flex-direction: column;
         font-size: 10px;
+    }
+
+
+    h2
+    {
+        font-size: 15px;
+    }
+
+    .project-flex
+    {
+        flex-direction: column;
     }
   }
   

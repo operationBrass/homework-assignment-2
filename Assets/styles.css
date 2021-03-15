@@ -1,8 +1,27 @@
+:root {
+    /*color based varibles*/
+
+    --main-bg-color:rgba(191, 195, 207, 0.746);
+    --h1-color: rgba(194, 86, 44, 0.6);
+    --h1-hover-color: rgba(194, 86, 44, 1); /*applies to other styles other than h1*/
+    --h2-color: rgba(19, 57, 224, 0.822);
+    --foot-bg-color:  rgba(51, 51, 51, 0.623);
+    --header-a-color: rgba(255, 251, 0, 0.5);
+    --header-a-hover: rgba(255, 251, 0, 1);
+    --main-p-color: rgba(53, 67, 149, 0.787);
+    --footer-p-color:rgba(194, 194, 194, 0.924);
+
+    /*screen width max for main*/
+    --main-maxwidth: 1280px;
+  }
+
+
+
 body
 {
  margin:0;
  padding:0;
- background-color: rgba(191, 195, 207, 0.746);
+ background-color: var(--main-bg-color); /*main-bg-color*/
 }
 
 section
@@ -15,7 +34,7 @@ section
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 1280px;
+    max-width: var(--main-maxwidth);
     padding: 0px 16px;
     border: 1px solid red;
     
@@ -24,7 +43,7 @@ section
 h1
 {
     MARGIN:0;
-    color:rgba(194, 86, 44, 0.6);
+    color: var(--h1-color);
     font-size:8em;
     line-height: 1em;
     padding-right: 50%;
@@ -33,22 +52,22 @@ h1
 
 h1:hover
 {
-    color:rgba(194, 86, 44, 1);
+    color:var(--h1-hover-color);
 }
 
 h2
 {
 
-    color:rgba(19, 57, 224, 0.822);
+    color: var(--h2-color);
     font-size:4rem;
     margin:0;
 }
 
-p
+main p
 {
     font-size: 1.5em;
     line-height: 1.2em;
-    color:rgba(53, 67, 149, 0.787);
+    color:var(--main-p-color)
 }
 
 
@@ -70,14 +89,14 @@ p
 
 .main-footer
 {
-    background: #333;
+    background: var(--foot-bg-color);
     height: 4rem; 
     text-align: center;
 }
 
 .footer-content p
 {
-    color: rgba(255, 251, 0, 0.5);
+    color: var(--footer-p-color);
 }
 
 
@@ -131,7 +150,7 @@ text-align: center;
 
 .showcase-intro p
 {
-    color:rgba(194, 86, 44, 0.787);
+    color: var(he);
 }
 
 .header-nav
@@ -140,6 +159,7 @@ padding: 0 1.5em;
 overflow: hidden;
 position: fixed;
 display: flex; 
+flex-shrink: 0;
 width:100%;
 justify-content:flex-end;
 z-index: 10;
@@ -169,7 +189,7 @@ color:rgba(255, 251, 0, 0.5);
 
 .header-nav a:hover
 {
-    color:rgba(255, 251, 0, 1); 
+    color: var(--header-a-hover);
     transition: .3s;
 }
 
@@ -187,7 +207,7 @@ color:rgba(255, 251, 0, 0.5);
 
 button:hover
 {
-    color:rgba(194, 86, 44, 1); 
+    color:var(--h1-hover-color);
     border-color:rgba(255, 251, 0, 1); 
     transition: .3s;
 }
@@ -199,7 +219,7 @@ button:hover
 }
 .ctr-button p
 {
-    color:rgba(194, 86, 44, 0.787);
+    color:var(--h1-color);
     font-size: 1.2em;
     
 }
@@ -253,3 +273,4 @@ input[type=text], select, textarea {
     padding: 20px;
     text-align: left;
   }
+

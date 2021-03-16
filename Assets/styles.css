@@ -40,8 +40,6 @@ body
 
 .main-content
 {
-    display: flex;
-    flex-wrap: wrap;
     margin: auto;
     max-width: var(--main-maxwidth);
 }

@@ -144,10 +144,6 @@ main p
 }
 
 
-
-
-
-
 .header-container
 {
     width:100%;
@@ -166,7 +162,7 @@ main p
 }
 
 
-.header-nav,
+.header-nav
 {
 margin:0;
 padding-right: 13%;

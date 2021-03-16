@@ -32,7 +32,6 @@ body
     background-position:center;
     background-repeat: no-repeat;
     background-size:stretch;
-    
 
 
 }
@@ -217,8 +216,7 @@ color:rgba(255, 251, 0, 1);
 .footer-content p
 {
     display: flex;
-    position: absolute;
-    bottom: 0;
+    flex-wrap: wrap;
     font-size: 2em;
     color: var(--footer-p-color);
     text-align: center;

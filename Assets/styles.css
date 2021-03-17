@@ -26,17 +26,6 @@ body
 
 }
 
-.content-background
-{
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("./images/explorersunset.jpg");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:stretch;
-
-
-}
-
 
 .main-content
 {
@@ -199,6 +188,8 @@ color:rgba(255, 251, 0, 0.5);
 color:rgba(255, 251, 0, 1);
 }
 
+
+
 /* end header */
 
 
@@ -238,8 +229,8 @@ color:rgba(255, 251, 0, 1);
     background-size:cover;
     transform: rotate(10deg);
     box-shadow: 10px 10px 5px #aaaaaa;
-    flex: 1 1 30%;
-    height: 200px;
+    height: 150px;
+    width:150px;
     border-style: solid;
     border-width: 5px;
     margin: 30px;
@@ -315,6 +306,8 @@ input[type=text], select, textarea {
 
 
   @media only screen and (max-width: 600px) {
+
+    .
     .showcase-title h1
     {
         font-size: 25px;
@@ -330,10 +323,13 @@ input[type=text], select, textarea {
         font-size: 1rem;
     }
 
-    .header-nav ul, .main-nav ul
+    .header-nav ul, .main-nav ul,  .project-flex
     {
         flex-direction: column;
         font-size: 10px;
+        align-content: left;
+        justify-content: center;
+        margin:0;
     }
 
 
@@ -344,8 +340,8 @@ input[type=text], select, textarea {
 
     .project-img
     {
-        flex-direction: row;
-        flex-wrap: wrap;
+        height: 100px;
+        width:100px;
     }
   }
 

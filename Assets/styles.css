@@ -195,18 +195,45 @@ color:rgba(255, 251, 0, 1);
 .myWork
 {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .workCard
 {
-    box-shadow: 10px 10px 5px #aaaaaa;
-    border-style: solid;
-    border-width: 1px;
-    width: 300px;
-    height: 300px;
-    margin: 15px;
+    /*shadow effect around each card. inset is short hand for top, left right and bottom*/
+    display: flex;
+    margin: 10px;
+    height: 420px;
+}
+
+/*setup the card borders by div ID */
+
+#mealApp
+{
+    box-shadow: inset 10px 10px 5px rgb(211, 233, 14),
+    inset  -10px -10px 5px rgba(213, 216, 42, 0.8);
+    
+}
+
+#weather
+{
+    box-shadow: inset 10px 10px 5px rgba(25, 69, 139, 1),
+    inset  -10px -10px 5px rgba(48, 100, 184, 0.8);
+}
+
+#passGen
+{
+    box-shadow: inset 10px 10px 5px rgb(9, 129, 15),
+    inset  -10px -10px 5px rgba(15, 148, 11, 0.8);
+}
+
+.myWorkImg
+{
+    margin: 10px;
+    width: 400px;
+    height: 400px;
 }
 
 .project-img:hover

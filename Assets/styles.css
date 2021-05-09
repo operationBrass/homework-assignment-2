@@ -203,7 +203,7 @@ color:rgba(255, 251, 0, 1);
 
 .workCard
 {
-    /*shadow effect around each card. inset is short hand for top, left right and bottom*/
+   
     display: flex;
     margin: 10px;
     width: 70%;
@@ -211,7 +211,7 @@ color:rgba(255, 251, 0, 1);
 }
 
 /*setup the card borders by div ID */
-
+ /*shadow effect around each card. inset is short hand for top, left right and bottom*/
 #realMeal
 {
     box-shadow: inset 10px 10px 5px rgb(211, 233, 14),
@@ -219,9 +219,17 @@ color:rgba(255, 251, 0, 1);
     background-color: rgba(228, 224, 13, 0.224);
 }
 
+h4
+{
+    padding:0;
+    font-size: 3rem;
+}
+
 .myWorkText
 {
     color: rgba(255, 255, 255, 0.692);
+    padding-left:15px;
+    font-size: 1rem;
 }
 
 #weather
@@ -238,12 +246,17 @@ color:rgba(255, 251, 0, 1);
     background-color: rgba(9, 129, 15,0.224);
 }
 
+.formContainer
+{
+    display: flex;
+    flex-direction: column;
+}
 
 .myWorkImg
 {
     margin: 10px;
-    width: 400px;
-    height: 400px;
+    width:50%;
+
 }
 
 .project-img:hover
@@ -269,11 +282,22 @@ article
     border: 5px dotted rgba(194, 86, 44, 1);
 }
 
-#contact
+.contact
 {
     margin-top:50px;
+    text-align: center;
 }
 
+#resume
+{
+    text-decoration: none;
+    color: var(--main-p-color);
+}
+
+#resume:hover
+{
+    text-decoration: underline;
+}
 
 .socials
 {
@@ -284,7 +308,7 @@ article
 }
 
 /* Style all font awesome icons */
-.fa {
+.fa, .fas {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -293,7 +317,7 @@ article
   }
   
   /* Add a hover effect if you want */
-  .fa:hover {
+  .fa:hover, .fas:hover {
     opacity: 0.7;
   }
   

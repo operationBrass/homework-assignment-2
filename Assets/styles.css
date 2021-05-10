@@ -221,16 +221,32 @@ color:rgba(255, 251, 0, 1);
 
 h4
 {
-    padding:0;
+    margin-top:20px;
+    margin-bottom: 10px;
     font-size: 3rem;
 }
 
 .myWorkText
 {
-    color: rgba(255, 255, 255, 0.692);
+    color: rgba(255, 255, 255, 0.8);
     padding-left:15px;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
 }
+
+.myWorkText a
+{
+    color: rgb(240, 170, 6);
+    text-decoration: none;
+}
+
+.myWorkText a:hover
+{
+    color: rgb(240, 92, 6);
+    text-decoration: underline;
+}
+
+
 
 #weather
 {
@@ -268,12 +284,6 @@ h4
 .project-opening
 {
     text-align: center;
-}
-
-.about-me h2
-{
-text-align: center;
-color: var(--h2-color);
 }
 
 
@@ -391,13 +401,13 @@ article
   }
 
   
-.project-intro h2
+h2
 {
     text-align: center;
     color:var(--h2-color);
 }
 
-.project-intro h2:hover
+h2:hover
 {
     color:var(--h2-hover-color);
 }

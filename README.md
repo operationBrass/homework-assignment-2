@@ -14,4 +14,7 @@ Vist my [portfolio](https://operationbrass.github.io/homework-assignment2/ "Bren
 
 ![Final_Product](/Assets/images/finalscreen/portfolioScreen.JPG)
 
+[License Agreement ](https://github.com/operationBrass/homework-assignment2/blob/main/LICENSE/ "License")
+
+
 

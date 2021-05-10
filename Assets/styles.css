@@ -226,12 +226,16 @@ h5
     font-size: 2rem;
 }
 
+.project-intro,.myWorkText, .contact
+{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 .myWorkText
 {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.7);
     padding-left:15px;
     font-size: 1.3rem;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 .myWorkText a

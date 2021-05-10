@@ -298,16 +298,17 @@ article
     text-align: center;
 }
 
-#resume
+#resume, #contactDeets a
 {
     text-decoration: none;
     color: var(--main-p-color);
 }
 
-#resume:hover
+#resume:hover,#contactDeets a:hover
 {
     text-decoration: underline;
 }
+
 
 .socials
 {
